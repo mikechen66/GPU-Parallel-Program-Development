@@ -20,8 +20,10 @@ https://mc.stanford.edu/cgi-bin/images/b/ba/M02_2.pdf
 
 
 CUDA By Example(2011): 
+
 http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf
 
 
 Programming for GPUs using CUDA in C/C++
+
 https://www.bu.edu/tech/support/research/software-and-programming/programming/multiprocessor/gpu-computing/cuda-c/
