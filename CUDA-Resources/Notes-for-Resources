@@ -1,0 +1,17 @@
+Resources
+
+NVCC - Nvidia CUDA Compiler Driver 
+https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
+
+PTX ISA 7.3
+https://docs.nvidia.com/cuda/pdf/ptx_isa_7.3.pdf
+
+PTX Assembly
+https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html
+
+User Guide for NVPTX Back-end
+https://llvm.org/docs/NVPTXUsage.html
+
+Targeting NVIDIA PTX
+https://developer.codeplay.com/products/computecpp/ce/guides/platform-support/targeting-nvidia-ptx?version=1.3.0
+
