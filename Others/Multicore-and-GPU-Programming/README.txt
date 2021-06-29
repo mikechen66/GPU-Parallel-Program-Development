@@ -1,6 +1,6 @@
 The code in this package accompanies the book:
 
-"Multicore and GPU Programming: An Integrated Approach", by Gerassimos Barlas, 1e, Morgan Kaufmann, 2014, ISBN-13: 978-0124171374
+"Multicore and GPU Programming: An Integrated Approach", by Gerassimos Barlas, 1e, Morgan Kaufmann, 2015
 
 All the code is offered as free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
