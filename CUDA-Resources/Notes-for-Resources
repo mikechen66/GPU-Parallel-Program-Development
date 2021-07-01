@@ -5,7 +5,8 @@
 Nvidia SMI
 https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf
 
-PTX(Parallel Thread eXecution) ISA 7.3
+PTX(Parallel Thread eXecution) ISA 7.4 and 7.3
+https://docs.nvidia.com/cuda/pdf/ptx_isa_7.4.pdf
 https://docs.nvidia.com/cuda/pdf/ptx_isa_7.3.pdf
 
 Targeting NVIDIA PTX
@@ -19,6 +20,12 @@ https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html
 
 NVCC - Nvidia CUDA Compiler Driver 
 https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
+
+NVRTC - Nidia Runtime Compiler for CUDA C++
+https://docs.nvidia.com/cuda/nvrtc/index.html
+
+Video Decoder
+https://docs.nvidia.com/cuda/video-decoder/index.html
 
 
 ## Deep Learning
@@ -38,14 +45,29 @@ https://developer.nvidia.com/transfer-learning-toolkit
 CUDA C Programming Guide - Inlcuding both C and C++
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
 
+CUDA C++ Standard Library
+https://docs.nvidia.com/cuda/cuda-c-std/index.html
+
+Thrust C++ Library
+https://docs.nvidia.com/cuda/thrust/index.html
+
 CUDA Best Practices Guide
 https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf
+
+CUDA Driver API
+https://docs.nvidia.com/cuda/pdf/CUDA_Driver_API.pdf
+
+PTX Compiler APIs
+https://docs.nvidia.com/cuda/pdf/PTX_Compiler_API_User_Guide.pdf
 
 CUDA Runtime API
 https://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf
 
 CUDA Memory Check
 https://docs.nvidia.com/cuda/pdf/CUDA_Memcheck.pdf
+
+CUDA Math API
+https://docs.nvidia.com/cuda/cuda-math-api/index.html
 
 
 ## CUDA Libraries
@@ -72,11 +94,20 @@ https://docs.nvidia.com/cuda/cutensor/index.html
 
 ## Systems
 
+Amphere Graphics Card Tuning Guide
+https://docs.nvidia.com/cuda/ampere-tuning-guide/index.html
+
+Turing Graphics Tuning Guide
+https://docs.nvidia.com/cuda/turing-tuning-guide/index.html
+
 cuDNN General
 https://docs.nvidia.com/deeplearning/cudnn/index.html
 
 cuDNN Documentation 
 https://docs.nvidia.com/deeplearning/cudnn/pdf/cuDNN-Developer-Guide.pdf
+
+MIG (Multi-Instance GPU)
+https://docs.nvidia.com/cuda/mig/index.html
 
 NVIDIA NCCL Communication for Multiple GPUs
 https://docs.nvidia.com/deeplearning/nccl/index.html
@@ -93,12 +124,29 @@ https://docs.nvidia.com/datacenter/cloud-native/index.html
 Nvidia GPU Debug Guidelines
 https://docs.nvidia.com/pdf/gpu-debug-guidelines.pdf
 
+Debugger API
+https://docs.nvidia.com/cuda/debugger-api/index.html
+
+NVVP - Nvidia Visual Profiler 
+https://docs.nvidia.com/cuda/profiler-users-guide/index.html
+
 Profiler
 https://docs.nvidia.com/hpc-sdk/pgi-compilers/2017/pgprof17ug.pdf
 
+CUDA Occupancy Calculator
+https://docs.nvidia.com/cuda/cuda-occupancy-calculator/index.html
+
+CUPTI - The CUDA Profiling Tools Interface
+https://docs.nvidia.com/cuda/cupti/index.html
+
+Night Systems
+https://docs.nvidia.com/cuda/nsight-systems/index.html
 
 
 ## Installation 
+
+CUDA Toolkit for Linux, MacOS and Windows(including installtion)
+https://docs.nvidia.com/cuda/index.html#cudacbestpractices
 
 NVIDIA CUDA Installation Guide for Desktop Linux
 https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf
