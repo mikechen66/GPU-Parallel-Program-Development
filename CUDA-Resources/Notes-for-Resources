@@ -1,6 +1,6 @@
-Resources
+# Resources
 
-# Nvidia Hardware, Instruction Set and Compiler 
+## Nvidia Hardware, Instruction Set and Compiler 
 
 Nvidia SMI
 https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf
@@ -21,7 +21,22 @@ NVCC - Nvidia CUDA Compiler Driver
 https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
 
 
-# CUDA API 
+## Deep Learning
+
+TensorRT General
+https://docs.nvidia.com/deeplearning/tensorrt/index.html
+
+TensorRT Quick Start
+https://docs.nvidia.com/deeplearning/tensorrt/pdf/TensorRT-Quick-Start-Guide.pdf
+
+Transfer Learning
+https://developer.nvidia.com/transfer-learning-toolkit
+
+
+## Languages and API for CUDA
+
+CUDA C Programming Guide - Inlcuding both C and C++
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
 
 CUDA Best Practices Guide
 https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf
@@ -33,7 +48,7 @@ CUDA Memory Check
 https://docs.nvidia.com/cuda/pdf/CUDA_Memcheck.pdf
 
 
-# CUDA Libraries
+## CUDA Libraries
 
 cuBLAS library
 https://docs.nvidia.com/cuda/cublas/index.html
@@ -55,7 +70,38 @@ There is no pdf but online documentation for cuTENSOR.
 https://docs.nvidia.com/cuda/cutensor/index.html
 
 
-# Installation 
+## Systems
 
-NVIDIA CUDA Installation Guide for Linux
+cuDNN General
+https://docs.nvidia.com/deeplearning/cudnn/index.html
+
+cuDNN Documentation 
+https://docs.nvidia.com/deeplearning/cudnn/pdf/cuDNN-Developer-Guide.pdf
+
+NVIDIA NCCL Communication for Multiple GPUs
+https://docs.nvidia.com/deeplearning/nccl/index.html
+
+Nvidia for Kubernetes
+https://docs.nvidia.com/datacenter/kubernetes/index.html
+
+Nvidia Cloud Native Technologies
+https://docs.nvidia.com/datacenter/cloud-native/index.html
+
+
+## Debugging and Checking 
+
+Nvidia GPU Debug Guidelines
+https://docs.nvidia.com/pdf/gpu-debug-guidelines.pdf
+
+Profiler
+https://docs.nvidia.com/hpc-sdk/pgi-compilers/2017/pgprof17ug.pdf
+
+
+
+## Installation 
+
+NVIDIA CUDA Installation Guide for Desktop Linux
 https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf
+
+Nvidia Jetson for Portable Linux
+https://docs.nvidia.com/jetson/index.html
