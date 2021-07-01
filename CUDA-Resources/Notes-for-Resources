@@ -1,19 +1,27 @@
 Resources
 
-NVCC - Nvidia CUDA Compiler Driver 
-https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
+# Nvidia Hardware, Instruction Set and Compiler 
+
+Nvidia SMI
+https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf
 
 PTX(Parallel Thread eXecution) ISA 7.3
 https://docs.nvidia.com/cuda/pdf/ptx_isa_7.3.pdf
 
-PTX Assembly
-https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html
+Targeting NVIDIA PTX
+https://developer.codeplay.com/products/computecpp/ce/guides/platform-support/targeting-nvidia-ptx?version=1.3.0
 
 User Guide for NVPTX Back-end
 https://llvm.org/docs/NVPTXUsage.html
 
-Targeting NVIDIA PTX
-https://developer.codeplay.com/products/computecpp/ce/guides/platform-support/targeting-nvidia-ptx?version=1.3.0
+PTX Assembly
+https://docs.nvidia.com/cuda/inline-ptx-assembly/index.html
+
+NVCC - Nvidia CUDA Compiler Driver 
+https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
+
+
+# CUDA API 
 
 CUDA Best Practices Guide
 https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf
@@ -24,8 +32,30 @@ https://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf
 CUDA Memory Check
 https://docs.nvidia.com/cuda/pdf/CUDA_Memcheck.pdf
 
-Nvidia SMI
-https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf
+
+# CUDA Libraries
+
+cuBLAS library
+https://docs.nvidia.com/cuda/cublas/index.html
+
+cuRAND (CUDA Random Number Generator)
+https://docs.nvidia.com/cuda/curand/index.html
+
+cuFFT (CUDA Fast Fourier)
+https://docs.nvidia.com/cuda/cufft/index.html
+
+cuSOLVER (CUDA SOLVER)
+https://docs.nvidia.com/cuda/cusolver/index.html
+
+cuSPARSE (CUDA Sparse Matrix)
+https://docs.nvidia.com/cuda/cusparse/index.html
+
+cuTENSOR (CUDA Tensor)
+There is no pdf but online documentation for cuTENSOR. 
+https://docs.nvidia.com/cuda/cutensor/index.html
+
+
+# Installation 
 
 NVIDIA CUDA Installation Guide for Linux
 https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf
