@@ -24,5 +24,8 @@ https://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf
 CUDA Memory Check
 https://docs.nvidia.com/cuda/pdf/CUDA_Memcheck.pdf
 
+Nvidia SMI
+https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf
+
 NVIDIA CUDA Installation Guide for Linux
 https://docs.nvidia.com/cuda/pdf/CUDA_Installation_Guide_Linux.pdf
