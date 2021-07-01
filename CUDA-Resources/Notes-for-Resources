@@ -17,3 +17,9 @@ https://developer.codeplay.com/products/computecpp/ce/guides/platform-support/ta
 
 CUDA Best Practices Guide
 https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf
+
+CUDA Runtime API
+https://docs.nvidia.com/cuda/pdf/CUDA_Runtime_API.pdf
+
+CUDA Memory Check
+https://docs.nvidia.com/cuda/pdf/CUDA_Memcheck.pdf
