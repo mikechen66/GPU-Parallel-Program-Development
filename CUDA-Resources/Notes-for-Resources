@@ -1,5 +1,10 @@
 # Resources
 
+There are thousands of pages of the resources related to CUDA. So it is impossible to list all the documents. 
+The most import resource is CUDA C Programming Guide (actually C++). Besides, Best Practices, Compiler, Runtime
+and NVVP for debugging are more important. 
+
+
 ## Hardware, Instruction Set and Compiler 
 
 Nvidia SMI
