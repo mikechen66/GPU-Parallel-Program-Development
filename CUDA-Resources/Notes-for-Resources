@@ -3,7 +3,7 @@ Resources
 NVCC - Nvidia CUDA Compiler Driver 
 https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf
 
-PTX ISA 7.3
+PTX(Parallel Thread eXecution) ISA 7.3
 https://docs.nvidia.com/cuda/pdf/ptx_isa_7.3.pdf
 
 PTX Assembly
