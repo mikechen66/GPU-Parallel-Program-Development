@@ -8,7 +8,7 @@ programming languages. This is where CUDA comes into the picture, allowing OpenC
 powerful NVDIA GPUs. This book provides a detailed overview of integrating OpenCV with CUDA 
 for practical applications.
 
-## Instructions and Navigations
+## Instructions
 
 All of the code is organized into folders. For example, Chapter02.
 
