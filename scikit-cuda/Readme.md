@@ -18,5 +18,6 @@ the wrappers and high-level functions can be found in the demos/ and tests/subdi
 
 ## Notes
 
-It is used as a reference while learning and looking up some usage of the CUDA and CUDA for 
-Python. It is convenient to involve the introdution and weblink in the folder. 
+It is used as a reference while learning and looking up some usage of the CUDA for C++ and 
+CUDA for Python. It is convenient to involve both the introdution and the weblink in the 
+folder. 
