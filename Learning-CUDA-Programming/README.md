@@ -30,7 +30,8 @@ All of the code is organized into folders. For example, Chapter02.
 
 ## Instructions
 
-The code will look like the following:
+All of the code is organized into folders. For example, Chapter02. The code 
+will look like the following:
 
 ```
 #include<stdio.h>
