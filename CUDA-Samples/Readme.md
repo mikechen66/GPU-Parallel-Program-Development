@@ -32,6 +32,7 @@ The Linux samples are built using makefiles. To use the makefiles, change the cu
 directory to the sample directory you wish to build, and run make:
 
 $ cd <sample_dir>
+
 $ make
 
 The samples makefiles can take advantage of certain options:
@@ -41,8 +42,11 @@ are x86_64, ppc64le, armv7l, aarch64. By default, TARGET_ARCH is set to HOST_ARC
 a x86_64 machine, not setting TARGET_ARCH is the equivalent of setting TARGET_ARCH=x86_64.
 
 $ make TARGET_ARCH=x86_64
+
 $ make TARGET_ARCH=ppc64le
+
 $ make TARGET_ARCH=armv7l
+
 $ make TARGET_ARCH=aarch64
 
 Please see the below weblink for more details on cross platform compilation of the cuda 
@@ -53,11 +57,13 @@ https://docs.nvidia.com/cuda/cuda-samples/index.html#cross-samples
 dbg=1 - build with debug symbols
 
 $ make dbg=1
+
 SMS="A B ..." - override the SM architectures for which the sample will be built, where 
 "A B ..." is a space-delimited list of SM architectures. For example, to generate SASS 
 for SM 50 and SM 60, use SMS="50 60".
 
 $ make SMS="50 60"
+
 HOST_COMPILER=<host_compiler> - override the default g++ host compiler. See the Linux 
 Installation Guide for a list of supported host compilers.
 
