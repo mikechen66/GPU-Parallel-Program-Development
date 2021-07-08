@@ -1,4 +1,4 @@
-# Hands-On GPU-Accelerated Computer Vision with OpenCV and CUDA
+# Hands-On GPU-Accelerated CV with OpenCV and CUDA
 Bhaumik Vaidya
 
 ## Introduction 
