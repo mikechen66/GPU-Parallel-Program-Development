@@ -25,7 +25,7 @@ Single GPU
 
 It only involves the scenario of the single GPU. Therefore, it does not inlcude OpenMP and MPI.
 
-Profiler
+NVPROF Profiler
 
 It is necessary to users to adopt the environment of Nvidia nvprof. Other visual profilers are not necessary.
 
