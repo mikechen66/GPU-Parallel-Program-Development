@@ -1,10 +1,12 @@
 # PyCUDA
-Introduction
+
+## Introduction
 PyCUDA lets developers access Nvidia's CUDA parallel computation API from Python. It is one of the best wrappers of the CUDA APIs. Please have a look at the repository as follows.
 
 https://github.com/inducer/pycuda
 
-Features
+## Key Features
+
 Object cleanup:
 
 Tied to lifetime of objects. This idiom, often called RAII in C++, makes it much easier to write correct, leak- and crash-free code.
@@ -24,3 +26,9 @@ All CUDA errors are automatically translated into Python exceptions.
 Fast Speed:
 
 PyCUDA's base layer is written in C++, so all the niceties above are virtually free. Helpful Documentation and a Wiki.
+
+## Resources:
+
+https://pypi.org/project/pycuda/#history
+
+https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
