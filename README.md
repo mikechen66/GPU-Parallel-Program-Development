@@ -9,8 +9,8 @@ by Nvidia. It allows software developers to use a CUDA-enabled GPU for general p
 ## Usage 
 
 The repository not only inlcudes the code from some resources but also the professional documents
-and weblinks from Nvidia and industrial palyers. The one-stop provision will be helpful for further
-learning the GPU-based programming. 
+and weblinks from Nvidia and other industrial palyers. The one-stop provision will be helpful for 
+further learning the GPU-based programming. 
 
 ## CUDA Platform 
 
