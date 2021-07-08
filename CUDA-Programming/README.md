@@ -19,7 +19,7 @@ https://github.com/brucefan1983/CUDA-Programming/tree/master/src
 
 Focus
 
-This book focuses on the CUDA C++ programming with not involving both the HSA such as OpenCL/OpenACC and the parallelism the interaction such as OpenGL and Direct3D.
+This book focuses on the CUDA C++ programming with involving neigher the HSA such as OpenCL/OpenACC nor the parallelism the interaction such as OpenGL and Direct3D.
 
 Single GPU
 
