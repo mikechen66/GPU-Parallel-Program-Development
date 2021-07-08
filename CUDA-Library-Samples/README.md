@@ -1,34 +1,21 @@
-CUDA Programming
-Bruce Fan, YouQi
+# CUDA Library Samples
+Nvidia 
 
-CUDA is playing the most important role in the high performance computing in the fields of deep learning, physics/chemistry, biology and material science. The book is elementary for the CUDA programming with the environment of CUDA 10.2. Please click the following repositories for reference.
+## Introduction
 
-Repositories
-The repository with Python
+The CUDA Library Samples are released by NVIDIA Corporation as Open Source software under the 3-clause "New" BSD license.
 
-https://github.com/YouQixiaowu/CUDA-Programming-with-Python/tree/master/src(CUDA-Programming-with-Python)
+https://github.com/NVIDIA/CUDALibrarySamples
 
-The repository with C, C++ and CU
+## Content 
 
-https://github.com/brucefan1983/CUDA-Programming/tree/master/src
+CUDA Library Samples contains examples demonstrating the use of features in the math and image processing libraries cuBLAS, cuTENSOR, cuSPARSE, cuSOLVER, cuFFT, cuRAND, NPP. 
 
-CUDA Programming
-This book focuses on the CUDA C++ programming with not involving both the HSA such as OpenCL/OpenACC and the parallelism the interaction such as OpenGL and Direct3D.
+## Resources:
 
-Single GPU
-It only involves the scenario of the single GPU. Therefore, it does not inlcude OpenMP and MPI.
-
-Profiler
-It is necessary to users to adopt the environment of Nvidia nvprof. Other visual profilers are not necessary.
-
-Resources:
 CUDA C Best Practices Guide has the content of more than 400 pages, plus various application libraries and programming development tools in the CUDA toolbox with tens of thousands of pages. Please take the online CUDA resources for reference.
 
-https://github.com/YouQixiaowu/CUDA-Programming-with-Python
-
-https://github.com/brucefan1983/CUDA-Programming
-
-https://github.com/Celebrandil/CudaSift
+https://github.com/NVIDIA/cuda-samples/tree/master/Samples
 
 https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 
