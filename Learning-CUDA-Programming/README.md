@@ -1,4 +1,5 @@
 # Learn CUDA Programming
+Jaegeun Han
 
 ## Introduction
 
