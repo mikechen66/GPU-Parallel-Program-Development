@@ -13,14 +13,18 @@ The repository with C, C++ and CU
 
 https://github.com/brucefan1983/CUDA-Programming/tree/master/src
 
-## CUDA Programming
+## Content
+
+Focus
 
 This book focuses on the CUDA C++ programming with not involving both the HSA such as OpenCL/OpenACC and the parallelism the interaction such as OpenGL and Direct3D.
 
 Single GPU
+
 It only involves the scenario of the single GPU. Therefore, it does not inlcude OpenMP and MPI.
 
 Profiler
+
 It is necessary to users to adopt the environment of Nvidia nvprof. Other visual profilers are not necessary.
 
 ## Resources:
