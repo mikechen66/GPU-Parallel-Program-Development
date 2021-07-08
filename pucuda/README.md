@@ -2,8 +2,8 @@
 
 ## Introduction
 
-PyCUDA lets developers access Nvidia's CUDA parallel computation API from Python. Several wrappers 
-of the CUDA API already exist-so what's so special about PyCUDA?
+PyCUDA lets developers access Nvidia's CUDA parallel computation API from Python. It is one of 
+the best wrappers of the CUDA APIs. Please have a look at the repository as follows. 
 
 https://github.com/inducer/pycuda
 
