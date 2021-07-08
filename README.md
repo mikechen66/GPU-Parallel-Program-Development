@@ -1,12 +1,16 @@
-# GPU-Parallel-Program-Development
-Tolga Soyata
+# GPU Program Development
 
 ## Introduction 
 
 CUDA is a parallel computing platform and application programming interface (API) model created 
-by Nvidia. It allows software developers and software engineers to use a CUDA-enabled GPU for 
-general purpose processing – an approach termed GPGPU (general-purpose computing on graphics 
-processing units). 
+by Nvidia. It allows software developers to use a CUDA-enabled GPU for general purpose processing
+– an approach termed GPGPU (general-purpose computing on graphics processing units). 
+
+## Usage 
+
+The repository not only inlcudes the code from some resources but also the professional documents
+and weblinks from Nvidia and industrial palyers. The one-stop provision will be helpful for further
+learning the GPU-based programming. 
 
 ## CUDA Platform 
 
