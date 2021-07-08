@@ -33,6 +33,7 @@ directory to the sample directory you wish to build, and run make:
 
 $ cd <sample_dir>
 $ make
+
 The samples makefiles can take advantage of certain options:
 
 TARGET_ARCH= - cross-compile targeting a specific architecture. Allowed architectures 
@@ -43,7 +44,11 @@ $ make TARGET_ARCH=x86_64
 $ make TARGET_ARCH=ppc64le
 $ make TARGET_ARCH=armv7l
 $ make TARGET_ARCH=aarch64
-See here for more details on cross platform compilation of cuda samples.
+
+Please see the below weblink for more details on cross platform compilation of the cuda 
+samples.
+
+https://docs.nvidia.com/cuda/cuda-samples/index.html#cross-samples
 
 dbg=1 - build with debug symbols
 
