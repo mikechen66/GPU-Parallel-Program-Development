@@ -10,26 +10,26 @@ https://github.com/inducer/pycuda
 
 ## Features
 
-Object cleanup: 
+### Object cleanup: 
 
 Tied to lifetime of objects. This idiom, often called RAII in C++, makes it much 
 easier to write correct, leak- and crash-free code. 
 
-Convenience: 
+### Convenience: 
 
 Abstractions like pycuda.driver.SourceModule and pycuda.gpuarray.GPUArray make CUDA 
 programming more convenient than with Nvidia's C-based runtime.
 
-Completeness: 
+### Completeness: 
 
 PyCUDA puts the full power of CUDA's driver API at your disposal. It includes code for 
 interoperability with OpenGL.
 
-Automatic Error Checking: 
+### Automatic Error Checking: 
 
 All CUDA errors are automatically translated into Python exceptions.
 
-Speed: 
+### Fast Speed: 
 
 PyCUDA's base layer is written in C++, so all the niceties above are virtually free. 
 Helpful Documentation and a Wiki.
