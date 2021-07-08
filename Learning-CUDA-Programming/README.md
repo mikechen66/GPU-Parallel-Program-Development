@@ -1,26 +1,40 @@
-# PyCUDA
-Introduction
-PyCUDA lets developers access Nvidia's CUDA parallel computation API from Python. It is one of the best wrappers of the CUDA APIs. Please have a look at the repository as follows.
+# Learn CUDA Programming
 
-https://github.com/inducer/pycuda
+## Introduction
 
-Features
-Object cleanup:
+CUDA is designed to work with programming languages such as C, C++, and Python. Developera 
+can use CUDA to leverage a GPU's parallel computing power for a range of high-performance 
+computing applications in the fields of science, healthcare, and deep learning.
 
-Tied to lifetime of objects. This idiom, often called RAII in C++, makes it much easier to write correct, leak- and crash-free code.
+https://github.com/PacktPublishing/Learn-CUDA-Programming
 
-Convenience:
+## Contents
 
-Abstractions like pycuda.driver.SourceModule and pycuda.gpuarray.GPUArray make CUDA programming more convenient than with Nvidia's C-based runtime.
+Understand general GPU operations and programming patterns in CUDA;
 
-Completeness:
+Uncover the difference between GPU programming and CPU programming;
 
-PyCUDA puts the full power of CUDA's driver API at your disposal. It includes code for interoperability with OpenGL.
+Analyze GPU application performance and implement optimization strategies;
 
-Automatic Error Checking:
+Explore GPU programming, profiling, and debugging tools;
 
-All CUDA errors are automatically translated into Python exceptions.
+Grasp parallel programming algorithms and how to implement them Scale 
+GPU-accelerated applications with multi-GPU and multi-nodes 
 
-Fast Speed:
+Delve into GPU programming platforms with accelerated libraries, Python, 
+and OpenACC Gain insights into deep learning accelerators in deep learning.
 
-PyCUDA's base layer is written in C++, so all the niceties above are virtually free. Helpful Documentation and a Wiki.
+Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+## Instructions
+
+The code will look like the following:
+
+#include<stdio.h>
+#include<stdlib.h>
+
+__global__ void print_from_gpu(void) {
+    printf("Hello World! from thread [%d,%d] \
+        From device\n", threadIdx.x,blockIdx.x);
+}
