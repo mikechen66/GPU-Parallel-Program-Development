@@ -1,5 +1,4 @@
-# Nvidia CUDA Samples 
-Nvidia
+# Nvidia CUDA Samples by Nvidia 
 
 ## Introduction to the Repository
 
