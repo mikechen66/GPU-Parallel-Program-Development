@@ -37,7 +37,7 @@ $ make
 
 The samples makefiles can take advantage of certain options:
 
-- TARGET_ARCH= - cross-compile targeting a specific architecture. Allowed architectures 
+1.TARGET_ARCH= - cross-compile targeting a specific architecture. Allowed architectures 
 are x86_64, ppc64le, armv7l, aarch64. By default, TARGET_ARCH is set to HOST_ARCH. On 
 a x86_64 machine, not setting TARGET_ARCH is the equivalent of setting TARGET_ARCH=x86_64.
 
@@ -54,17 +54,17 @@ samples.
 
 https://docs.nvidia.com/cuda/cuda-samples/index.html#cross-samples
 
-- dbg=1 - build with debug symbols
+2.dbg=1 - build with debug symbols
 
 $ make dbg=1
 
-- SMS="A B ..." - override the SM architectures for which the sample will be built, where 
+3.SMS="A B ..." - override the SM architectures for which the sample will be built, where 
 "A B ..." is a space-delimited list of SM architectures. For example, to generate SASS 
 for SM 50 and SM 60, use SMS="50 60".
 
 $ make SMS="50 60"
 
-- HOST_COMPILER=<host_compiler> - override the default g++ host compiler. See the Linux 
+4.HOST_COMPILER=<host_compiler> - override the default g++ host compiler. See the Linux 
 Installation Guide for a list of supported host compilers.
 
 $ make HOST_COMPILER=g++
