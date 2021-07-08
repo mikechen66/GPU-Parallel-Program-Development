@@ -11,11 +11,13 @@ Book Excerpt:
 
 https://andrewboggio.com/pdf/soyata.crc18.pdf
 
-
 Nvidia CUDA C Programming: 
 
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
 
+Nvidia Runtime API
+
+https://docs.nvidia.com/cuda/cuda-runtime-api/index.html
 
 Stanford CUDA Parallel Programming: 
 
