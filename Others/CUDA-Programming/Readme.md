@@ -2,10 +2,10 @@
 Bruce Fan, YouQi
 
 CUDA is playing the most important role in the high performance computing in the fields of deep learning, 
-physics/chemistry, biology and material science. The book is elementary for the CUDA programming suitbale 
-for CUDA 10.2. Please click the following repositories for reference. 
+physics/chemistry, biology and material science. The book is elementary for the CUDA programming with the 
+environment of CUDA 10.2. Please click the following repositories for reference. 
 
-## 
+## Repositories 
 
 The repository with Python 
 
