@@ -87,7 +87,7 @@ MSVC 2019+ (19.20/16.0/14.20)
 
 ## Development Process
 
-Thrust uses the CMake build system to build unit tests, examples, and header tests. By default, a serial CPP host system, CUDA accelerated device system, and C++14 standard are used. This can be changed in CMake. More information on configuring your Thrust build and creating a pull request can be found in [CONTRIBUTING.md](https://github.com/NVIDIA/thrust/blob/main/CONTRIBUTING.md). To build Thrust as a developer, the following recipe should be followed:
+Thrust uses the [CMake](https://cmake.org/) build system to build unit tests, examples, and header tests. By default, a serial CPP host system, CUDA accelerated device system, and C++14 standard are used. This can be changed in CMake. More information on configuring your Thrust build and creating a pull request can be found in [CONTRIBUTING.md](https://github.com/NVIDIA/thrust/blob/main/CONTRIBUTING.md). To build Thrust as a developer, the following recipe should be followed:
 
 ```
 # Clone Thrust and CUB repos recursively:
