@@ -1,4 +1,5 @@
 # CUDA Thrust 
+Nvidia 
 
 ## Introduction 
 
