@@ -42,6 +42,10 @@ Stanford CUDA Parallel Programming:
 
 https://mc.stanford.edu/cgi-bin/images/b/ba/M02_2.pdf
 
+cuNDD
+
+https://docs.nvidia.com/deeplearning/cudnn/pdf/cuDNN-Developer-Guide.pdf
+
 CUDA Thrust
 
 https://github.com/NVIDIA/thrust
