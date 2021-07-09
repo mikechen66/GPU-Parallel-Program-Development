@@ -19,6 +19,7 @@ All of the code is organized into folders. For example, Chapter02.
 
 All of the code is organized into folders. For example, Chapter02. The code will look like the following:
 
+
 ```
 #include<stdio.h>
 #include<stdlib.h>
