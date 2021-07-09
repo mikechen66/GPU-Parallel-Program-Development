@@ -7,8 +7,6 @@ CUDA is designed to work with programming languages such as C, C++, and Python. 
 can use CUDA to leverage a GPU's parallel computing power for a range of high-performance 
 computing applications in the fields of science, healthcare, and deep learning.
 
-https://github.com/PacktPublishing/Learn-CUDA-Programming
-
 ## Contents
 
 Understand general GPU operations and programming patterns in CUDA;
