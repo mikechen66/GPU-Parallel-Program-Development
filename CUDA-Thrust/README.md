@@ -109,3 +109,19 @@ cmake --build . -j <num jobs>   # invokes make (or ninja, etc)
 # Run tests and examples:
 ctest
 ```
+
+## Resources
+
+Please have a look at the following resources for more understanding. 
+
+Nvidia Thrust 
+
+https://docs.nvidia.com/cuda/thrust/index.html
+
+CUDA C/C++ Programming Guide 
+
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+
+Microsoft STL
+
+https://github.com/microsoft/STL
