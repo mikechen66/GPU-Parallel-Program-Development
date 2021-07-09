@@ -28,6 +28,8 @@ https://github.com/YouQixiaowu/CUDA-Programming-with-Python
 
 https://github.com/brucefan1983/CUDA-Programming
 
+https://github.com/brucefan1983/GPUMD
+
 https://github.com/Celebrandil/CudaSift
 
 https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
