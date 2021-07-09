@@ -57,8 +57,7 @@ This code sample computes the sum of 100 random numbers in parallel:
 #include <algorithm>
 #include <cstdlib>
 
-int main(void)
-{
+int main(void) {
   // generate random data serially
   thrust::host_vector<int> h_vec(100);
   std::generate(h_vec.begin(), h_vec.end(), rand);
