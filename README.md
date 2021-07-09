@@ -42,6 +42,10 @@ Stanford CUDA Parallel Programming:
 
 https://mc.stanford.edu/cgi-bin/images/b/ba/M02_2.pdf
 
+CUDA Thrust
+
+https://github.com/NVIDIA/thrust
+
 Parallel Programming for GPUs - Utah CS6963 
 
 http://www.cs.utah.edu/~mhall/cs6963s09/
