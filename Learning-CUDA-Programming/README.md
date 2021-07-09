@@ -26,3 +26,6 @@ __global__ void print_from_gpu(void) {
         From device\n", threadIdx.x,blockIdx.x);
 }
 ```
+## Resources
+
+https://github.com/PacktPublishing/Learning-CUDA-10-Programming
