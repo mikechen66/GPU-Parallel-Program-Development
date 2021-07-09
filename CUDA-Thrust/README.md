@@ -83,3 +83,31 @@ GCC 5+
 Clang 7+
 
 MSVC 2019+ (19.20/16.0/14.20)
+
+
+## Development Process
+
+Thrust uses the CMake build system to build unit tests, examples, and header tests. To build Thrust as a developer, the following recipe should be followed:
+
+```
+# Clone Thrust and CUB repos recursively:
+git clone --recursive https://github.com/NVIDIA/thrust.git
+cd thrust
+
+# Create build directory:
+mkdir build
+cd build
+
+# Configure -- use one of the following:
+cmake ..   # Command line interface.
+ccmake ..  # ncurses GUI (Linux only)
+cmake-gui  # Graphical UI, set source/build directories in the app
+
+# Build:
+cmake --build . -j <num jobs>   # invokes make (or ninja, etc)
+
+# Run tests and examples:
+ctest
+```
+
+By default, a serial CPP host system, CUDA accelerated device system, and C++14 standard are used. This can be changed in CMake. More information on configuring your Thrust build and creating a pull request can be found in CONTRIBUTING.md.
