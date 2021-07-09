@@ -22,6 +22,7 @@ Profiler
 It is necessary to users to adopt the environment of Nvidia nvprof. Other visual profilers are not necessary.
 
 Resources:
+
 CUDA C Best Practices Guide has the content of more than 400 pages, plus various application libraries and programming development tools in the CUDA toolbox with tens of thousands of pages. Please take the online CUDA resources for reference.
 
 https://github.com/YouQixiaowu/CUDA-Programming-with-Python
@@ -35,3 +36,5 @@ https://github.com/Celebrandil/CudaSift
 https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 
 https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview
+
+https://www.netlib.org/blas/
