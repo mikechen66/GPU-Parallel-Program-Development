@@ -69,3 +69,13 @@ int main(void) {
   return 0;
 }
 ```
+
+## Supported Compilers
+
+Thrust is regularly tested using the specified versions of the following compilers. Unsupported versions may emit deprecation warnings, which can be silenced by defining THRUST_IGNORE_DEPRECATED_COMPILER during compilation.
+
+NVCC 11.0+
+NVC++ 20.9+
+GCC 5+
+Clang 7+
+MSVC 2019+ (19.20/16.0/14.20)
