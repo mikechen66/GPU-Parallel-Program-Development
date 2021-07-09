@@ -46,7 +46,7 @@ int main(void) {
 }
 ```
 
-This code sample computes the sum of 100 random numbers in parallel:
+This code sample computes the sum of 100 random numbers in parallel as follows. 
 
 ```
 #include <thrust/host_vector.h>
