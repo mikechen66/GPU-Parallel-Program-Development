@@ -46,3 +46,5 @@ https://docs.nvidia.com/cuda/cuda-math-api/modules.html#modules
 https://docs.nvidia.com/cuda/profiler-users-guide/index.html#nvprof-overview
 
 https://www.netlib.org/blas/
+
+https://www.netlib.org/lapark/
