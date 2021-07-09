@@ -14,7 +14,7 @@ To use Thrust from your project, first recursively clone the Thrust Github repos
 ``` 
 git clone --recursive https://github.com/NVIDIA/thrust.git 
 ```
-Thrust is a header-only library; there is no need to build or install the project unless you want to run the Thrust unit tests. For CMake-based projects, Nvidia provide a CMake package for use with find_package. See the CMake README for more information. Thrust can also be added via add_subdirectory or tools like the CMake Package Manager.
+Thrust is a header-only library; there is no need to build or install the project unless you want to run the Thrust unit tests. For CMake-based projects, Nvidia provide a CMake package for use with find_package. See the [CMake README](https://github.com/NVIDIA/thrust/blob/main/thrust/cmake/README.md) for more information. Thrust can also be added via add_subdirectory or tools like the [CMake Package Manager](https://github.com/cpm-cmake/CPM.cmake).
 
 ## Examples 
 Examples
