@@ -26,10 +26,6 @@ such code to CUDA.
 To facilitate the understanding of the CUDA learning, we recommend the following resources for
 reference. 
 
-Book Excerpt: 
-
-https://andrewboggio.com/pdf/soyata.crc18.pdf
-
 Nvidia CUDA C Programming: 
 
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
@@ -49,6 +45,10 @@ https://docs.nvidia.com/deeplearning/cudnn/pdf/cuDNN-Developer-Guide.pdf
 CUDA Thrust
 
 https://github.com/NVIDIA/thrust
+
+CUDA Math
+
+https://docs.nvidia.com/cuda/cuda-math-api/modules.html#modules
 
 Parallel Programming for GPUs - Utah CS6963 
 
