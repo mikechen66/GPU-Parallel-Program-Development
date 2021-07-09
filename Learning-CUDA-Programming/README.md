@@ -9,27 +9,15 @@ computing applications in the fields of science, healthcare, and deep learning.
 
 ## Contents
 
-Understand general GPU operations and programming patterns in CUDA;
+Understand general GPU operations and programming patterns in CUDA; uncover the difference between GPU programming and CPU programming;
+analyze GPU application performance and implement optimization strategies; explore GPU programming, profiling, and debugging tools; grasp parallel programming algorithms and how to implement them; scale GPU-accelerated applications with multi-GPU and multi-nodes; delve into GPU programming platforms with accelerated libraries, Python, and OpenACC Gain insights into deep learning accelerators in deep learning.
 
-Uncover the difference between GPU programming and CPU programming;
-
-Analyze GPU application performance and implement optimization strategies;
-
-Explore GPU programming, profiling, and debugging tools;
-
-Grasp parallel programming algorithms and how to implement them Scale 
-GPU-accelerated applications with multi-GPU and multi-nodes 
-
-Delve into GPU programming platforms with accelerated libraries, Python, 
-and OpenACC Gain insights into deep learning accelerators in deep learning.
-
-Instructions and Navigations
+## Instructions
 All of the code is organized into folders. For example, Chapter02.
 
 ## Instructions
 
-All of the code is organized into folders. For example, Chapter02. The code 
-will look like the following:
+All of the code is organized into folders. For example, Chapter02. The code will look like the following:
 
 ```
 #include<stdio.h>
