@@ -17,3 +17,5 @@ Please have a look at the following materials
 https://github.com/NVIDIA/cutlass
 
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+
+https://github.com/Erkaman/Awesome-CUDA
