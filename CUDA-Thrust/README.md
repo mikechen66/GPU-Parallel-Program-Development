@@ -118,9 +118,9 @@ Nvidia Thrust
 
 https://docs.nvidia.com/cuda/thrust/index.html
 
-Thrust in Wiki
+Thrust
 
-https://en.wikipedia.org/wiki/Thrust
+https://thrust.github.io/
 
 CUDA C/C++ Programming Guide 
 
