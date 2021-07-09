@@ -2,7 +2,7 @@
 
 ## Reposiroty
 
-The CUDA platform is designed to work with programming languages such as C, C++, and Fortran. This accessibility makes it easier for specialists in parallel programming to use GPU resources. CUDA-powered GPUs also support programming frameworks such as OpenMP, OpenACC and OpenCL;and HIP by compiling such code to CUDA
+The CUDA platform is designed to work with programming languages such as C, C++, and Fortran. This accessibility makes it easier for specialists in parallel programming to use GPU resources. CUDA-powered GPUs also support programming frameworks such as OpenMP, OpenACC and OpenCL;and HIP by compiling such code to CUDA. Please take the suitable approach to the repository because it was released 4 years ago. 
 
 https://github.com/NVIDIA-Korea/CUDA
 
