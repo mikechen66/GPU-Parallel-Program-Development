@@ -19,6 +19,10 @@ Nvidia CUDA C Programming:
 
 https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
 
+Awesome CUDA
+
+https://github.com/Erkaman/Awesome-CUDA
+
 CUDA By Example(2011): 
 
 http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf
