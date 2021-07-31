@@ -49,13 +49,11 @@ from cpu to gpu, __device__ for GPU and __host__ for CPU.
 #include <stdio.h>
 #define N 5
 
-__global__ void gpu_global_memory(int *d_a) / a global function 
-{
+__global__ void gpu_global_memory(int *d_a) { / a global function 
     d_a[threadIdx.x] = threadIdx.x; //d_a for device (GPU)
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     int h_a[N]; //h_a for host (CPU)
     int *d_a;
     cudaMalloc((void **)&d_a, sizeof(int) *N);
@@ -68,6 +66,7 @@ int main(int argc, char **argv)
         printf("At Index: %d --> %d \n", i, h_a[i]);
     }
     return
+}
 ```
 
 Atomic operation for fine-grained operation 
