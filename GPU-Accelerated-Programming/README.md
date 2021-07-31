@@ -48,6 +48,7 @@ from cpu to gpu, __device__ for GPU and __host__ for CPU.
 ```
 #include <stdio.h>
 #define N 5
+
 __global__ void gpu_global_memory(int *d_a) / a global function 
 {
     d_a[threadIdx.x] = threadIdx.x; //d_a for device (GPU)
