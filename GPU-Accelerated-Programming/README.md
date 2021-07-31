@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-Atomic operation for fine-grained data
+Atomic snippet for fine-grained operation
 
 ```
 // Initialize GPU memory with zero value.
