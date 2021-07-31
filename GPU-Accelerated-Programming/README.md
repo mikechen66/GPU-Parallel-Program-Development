@@ -154,9 +154,9 @@ from pycuda.compiler import SourceModule
 mod = SourceModule("""
     #include <stdio.h>
 
-     __global__ void myfirst_kernel() {
+    __global__ void myfirst_kernel() {
         printf("Hello,PyCUDA!!!");
-      }
+    }
 """)
 
 function = mod.get_function("myfirst_kernel")
