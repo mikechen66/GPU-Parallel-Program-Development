@@ -10,15 +10,140 @@ for practical applications.
 
 ## Instructions
 
-All of the code is organized into folders. For example, Chapter02.
+With exception of some unique (jargon) functionalities, the CUDA program is full compliance with 
+C and C++ but ended as .cu rather than .c or .cpp. Users need to install a cuda plug-in such as 
+CUDA Snippets for Sublime Text. The program of hello.cu looks like the following:
 
-The code will look like the following:
 ```
-while (tid < N)
-    {
-       d_c[tid] = d_a[tid] + d_b[tid];
-       tid += blockDim.x * gridDim.x;
-    }
+#include <iostream>
+#include <stdio.h>
+
+__global__ void my_kernel(void) {
+}
+
+int main(void) {
+    my_kernel <<<1, 1 >>>();
+    printf("Hello, CUDA!\n");
+    return 0;
+}
+```
+
+## CUDA Features
+
+### Kernel function 
+
+The CUDA has a hierarchical architecture in terms of parallel execution with millions of threads. 
+The kernel execution can be done in parallel with multiple blocks. Each block is further divided 
+into multiple threads. It has the following expression. 
+
+```
+kernel<<<grid_size, block_size>>>
+```
+
+### Jargons
+
+Three qualifier keywords for CPU and GPU communication
+
+```
+__global__ for GPU device function
+__device__ for GPU
+__host__ for CPU
+```
+
+Atomic operation for fine-grained operation 
+
+```
+// Initialize GPU memory with zero value.
+cudaMemset((void *)d_a, 0, ARRAY_BYTES);
+gpu_increment_without_atomic <<<NUM_THREADS/BLOCK_WIDTH, BLOCK_WIDTH>>>(d_a);
+```
+
+Stream - A very efficient queue for large-scale parallel computation 
+
+```
+cudaDeviceSynchronize();
+cudaStreamSynchronize(stream0);
+cudaStreamSynchronize(stream1);
+```
+
+### Dynamic memory management
+
+The memory management inlcudes cudaMalloc, cudaMemcpy and cudaFree. It is similar to
+the related functions in C. 
+
+```
+cudaMalloc: for dynamic memory allocation
+cudaMemcpy: being similar to the funcion of Memcpy in C 
+cudaFree: as similar as above
+```
+
+### Synchronization between CPU and GPU 
+
+cudaSynchronize()
+
+## CUDA Module for OpenCV 
+
+### GPUMat
+
+```
+cv::cuda::GpuMat d_result1,d_img1, d_img2;
+```
+
+### Pointer, arithmetic and bitwise Operation 
+
+```
+cv::Ptr<cv::cuda::Filter> filter3x3,filter5x5,filter7x7;
+cv::cuda::add(d_img1,d_img2, d_result1);
+cv::cuda::subtract(d_img1, d_img2,d_result1);
+cv::cuda::bitwise_not(d_img1,d_result1);
+cv::cuda::bitwise_and(d_thresc[0], d_thresc[1],d_intermediate);
+```
+
+### Image processing 
+
+```
+cv::cuda::cvtColor(d_img1, d_result1,cv::COLOR_BGR2GRAY);
+cv::cuda::threshold(d_img1, d_result2, 128.0, 255.0, cv::THRESH_BINARY_INV);
+cv::cuda::equalizeHist(d_img1, d_result1);
+cv::cuda::resize(d_img1,d_result1,cv::Size(200, 200), cv::INTER_CUBIC);
+v::cuda::warpAffine(d_img1,d_result1,trans_mat,d_img1.size());
+filter3x3 = cv::cuda::createBoxFilter(CV_8UC1,CV_8UC1,cv::Size(3,3));
+filter5x5 = cv::cuda::createGaussianFilter(CV_8UC1,CV_8UC1,cv::Size(5,5),1);
+filter1 = cv::cuda::createLaplacianFilter(CV_8UC1,CV_8UC1,1);
+filterd = cv::cuda::createMorphologyFilter(cv::MORPH_DILATE,CV_8UC1,element);
+```
+
+### Object Detection 
+
+```
+cv::Ptr<cv::cuda::ORB> detector = cv::cuda::ORB::create();
+cv::Ptr<cv::cuda::CannyEdgeDetector> canny_edge = cv::cuda::createCannyEdgeDetector(2.0, 100.0, 3, false);
+Ptr<cuda::CascadeClassifier> cascade = cuda::CascadeClassifier::create("haarcascade_eye.xml");
+Ptr<BackgroundSubtractor> mog = cuda::createBackgroundSubtractorMOG();
+```
+
+## PyCUDA
+
+There are three steps to develop PyCUDA code, inlcuding Import pycuda.driver as drv, Import 
+pycuda.autoinit and From pycuda.compiler import SourceModule. The most important kernels include
+map, reducton and scan. It is the simple example for the above hello.cu. 
+
+```
+import pycuda.driver as cuda
+import pycuda.autoinit
+from pycuda.compiler import SourceModule
+
+mod = SourceModule("""
+    #include <stdio.h>
+
+     __global__ void myfirst_kernel()
+       {
+        printf("Hello,PyCUDA!!!");
+      }
+""")
+
+function = mod.get_function("myfirst_kernel")
+function(block=(1,1,1))
 ```
 
 ## Resources 
