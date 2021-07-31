@@ -42,8 +42,8 @@ kernel<<<grid_size, block_size>>>
 
 ### Jargons
 
-There are three qualifier keywords for CPU and GPU communicationL  __global__ for a function call 
-from cpu to gpu, __device__ for GPU and __host__ for CPU. 
+There are three qualifier keywords for CPU and GPU communicationL  "__global__" for a function call 
+from cpu to gpu, "__device__" for GPU and "__host__" for CPU. 
 
 ```
 #include <stdio.h>
@@ -61,15 +61,14 @@ int main(int argc, char **argv) {
     gpu_global_memory << <1, N >> >(d_a);
     cudaMemcpy((void *)h_a, (void *)d_a, sizeof(int) *N, cudaMemcpyDeviceToHost);
     printf("Array in Global Memory is: \n");
-    for (int i = 0; i < N; i++)
-    {
+    for (int i = 0; i < N; i++) {
         printf("At Index: %d --> %d \n", i, h_a[i]);
     }
     return
 }
 ```
 
-Atomic operation for fine-grained operation 
+Atomic operation for fine-grained data
 
 ```
 // Initialize GPU memory with zero value.
@@ -77,9 +76,13 @@ cudaMemset((void *)d_a, 0, ARRAY_BYTES);
 gpu_increment_without_atomic <<<NUM_THREADS/BLOCK_WIDTH, BLOCK_WIDTH>>>(d_a);
 ```
 
-Stream - A very efficient queue for large-scale parallel computation 
+Synchronization between host and device 
 
 ```
+cudaDeviceSynchronize();
+cudaThreadSynchronize();
+__syncthreads();
+cudaEventSynchronize
 cudaDeviceSynchronize();
 cudaStreamSynchronize(stream0);
 cudaStreamSynchronize(stream1);
@@ -95,10 +98,6 @@ cudaMalloc: for dynamic memory allocation
 cudaMemcpy: being similar to the funcion of Memcpy in C 
 cudaFree: as similar as above
 ```
-
-### Synchronization between CPU and GPU 
-
-cudaSynchronize()
 
 ## CUDA Module for OpenCV 
 
@@ -155,8 +154,7 @@ from pycuda.compiler import SourceModule
 mod = SourceModule("""
     #include <stdio.h>
 
-     __global__ void myfirst_kernel()
-       {
+     __global__ void myfirst_kernel() {
         printf("Hello,PyCUDA!!!");
       }
 """)
