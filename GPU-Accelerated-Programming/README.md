@@ -42,12 +42,31 @@ kernel<<<grid_size, block_size>>>
 
 ### Jargons
 
-Three qualifier keywords for CPU and GPU communication
+There are three qualifier keywords for CPU and GPU communicationL  __global__ for a function call 
+from cpu to gpu, __device__ for GPU and __host__ for CPU. 
 
 ```
-__global__ for GPU device function
-__device__ for GPU
-__host__ for CPU
+#include <stdio.h>
+#define N 5
+__global__ void gpu_global_memory(int *d_a) / a global function 
+{
+    d_a[threadIdx.x] = threadIdx.x; //d_a for device (GPU)
+}
+
+int main(int argc, char **argv)
+{
+    int h_a[N]; //h_a for host (CPU)
+    int *d_a;
+    cudaMalloc((void **)&d_a, sizeof(int) *N);
+    cudaMemcpy((void *)d_a, (void *)h_a, sizeof(int) *N, cudaMemcpyHostToDevice);
+    gpu_global_memory << <1, N >> >(d_a);
+    cudaMemcpy((void *)h_a, (void *)d_a, sizeof(int) *N, cudaMemcpyDeviceToHost);
+    printf("Array in Global Memory is: \n");
+    for (int i = 0; i < N; i++)
+    {
+        printf("At Index: %d --> %d \n", i, h_a[i]);
+    }
+    return
 ```
 
 Atomic operation for fine-grained operation 
