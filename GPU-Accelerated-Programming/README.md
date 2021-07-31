@@ -42,6 +42,8 @@ kernel<<<grid_size, block_size>>>
 
 ### Jargons
 
+Qualifiers
+
 There are three qualifier keywords for CPU and GPU communicationL  "__global__" for a function call 
 from cpu to gpu, "__device__" for GPU and "__host__" for CPU. 
 
