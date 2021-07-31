@@ -84,8 +84,7 @@ cudaThreadSynchronize();
 __syncthreads();
 cudaEventSynchronize
 cudaDeviceSynchronize();
-cudaStreamSynchronize(stream0);
-cudaStreamSynchronize(stream1);
+cudaStreamSynchronize();
 ```
 
 ### Dynamic memory management
