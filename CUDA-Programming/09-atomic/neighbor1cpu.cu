@@ -42,7 +42,7 @@ void read_xy(std::vector<real>& v_x, std::vector<real>& v_y)
 {
     std::ifstream infile("xy.txt");
     std::string line, word;
-    if(!infile)
+    if (!infile)
     {
         std::cout << "Cannot open xy.txt" << std::endl;
         exit(1);
@@ -50,15 +50,15 @@ void read_xy(std::vector<real>& v_x, std::vector<real>& v_y)
     while (std::getline(infile, line))
     {
         std::istringstream words(line);
-        if(line.length() == 0)
+        if (line.length() == 0)
         {
             continue;
         }
         for (int i = 0; i < 2; i++)
         {
-            if(words >> word)
+            if (words >> word)
             {
-                if(i == 0)
+                if (i == 0)
                 {
                     v_x.push_back(std::stod(word));
                 }
@@ -110,7 +110,7 @@ void timing(int *NN, int *NL, std::vector<real> x, std::vector<real> y)
         CHECK(cudaEventCreate(&start));
         CHECK(cudaEventCreate(&stop));
         CHECK(cudaEventRecord(start));
-        while(cudaEventQuery(start)!=cudaSuccess){}
+        while (cudaEventQuery(start)!=cudaSuccess){}
         find_neighbor(NN, NL, x.data(), y.data());
 
         CHECK(cudaEventRecord(stop));
@@ -141,7 +141,7 @@ void print_neighbor(const int *NN, const int *NL)
         outfile << NN[n];
         for (int k = 0; k < MN; ++k)
         {
-            if(k < NN[n])
+            if (k < NN[n])
             {
                 outfile << " " << NL[n * MN + k];
             }
