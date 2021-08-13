@@ -66,33 +66,31 @@ void read_xy(std::vector<real>& v_x, std::vector<real>& v_y)
 {
     std::ifstream infile("xy.txt");
     std::string line, word;
-    if(!infile)
+    if (!infile)
     {
         std::cout << "Cannot open xy.txt" << std::endl;
         exit(1);
     }
-    while(std::getline(infile, line))
+    while (std::getline(infile, line))
     {
         std::istringstream words(line);
-        if(line.length()==0)
+        if (line.length()==0)
         {
             continue;
         }
-        for(int i=0;i<2;i++)
+        for (int i=0;i<2;i++)
         {
-            if(words >> word)
+            if (words >> word)
             {
-                if(i==0)
+                if (i==0)
                 {
                     v_x.push_back(std::stod(word));
                 }
-                if(i==1)
+                if (i==1)
                 {
                     v_y.push_back(std::stod(word));
                 }
-            }
-            else
-            {
+            } else {
                 std::cout << "Error for reading xy.txt" << std::endl;
                 exit(1);
             }
@@ -174,9 +172,7 @@ void timing
         {
             find_neighbor_atomic<<<grid_size, block_size>>>
             (d_NN, d_NL, d_x, d_y, N, cutoff_square);
-        }
-        else
-        {
+        } else {
             find_neighbor_no_atomic<<<grid_size, block_size>>>
             (d_NN, d_NL, d_x, d_y, N, cutoff_square);
         }
@@ -213,9 +209,7 @@ void print_neighbor(const int *NN, const int *NL, const bool atomic)
             {
                 int tmp = atomic ? NL[n * MN + k] : NL[k * N + n];
                 outfile << " " << tmp;
-            }
-            else
-            {
+            } else {
                 outfile << " NaN";
             }
         }
