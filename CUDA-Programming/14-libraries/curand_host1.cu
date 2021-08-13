@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <curand.h>
+
 void output_results(int N, double *g_x);
 
 int main(void)
