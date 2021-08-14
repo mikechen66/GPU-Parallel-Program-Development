@@ -1,3 +1,5 @@
+// MIC: Minimu image convention
+
 #pragma once
 
 static void __device__ apply_mic
