@@ -11,5 +11,12 @@ main.cu
 - Integration of movement formula (integrate.cuh and integrate.cu);
   * Get both the force and the potential energy (force.cuh and force.cu)
     & Implement the minimum image convention (mic.cuh)
+    
+Notes:
+
+clock_t
+typedef a-type clock_t;
+The type is the arithmetic type a-type of an object that you declare to hold the 
+value returned by clock, representing elapsed processor time.
 
 
